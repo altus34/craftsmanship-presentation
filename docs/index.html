@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Studio</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>#!@#$%$ #KeskonFait</h1>
+				</section>
+				<section>
+					<img src="images/Axe.jpg"/>
+				</section>
+				<section>
+					<img src="images/Chainsaw.png"/>
+				</section>
+				<section>
+					<img src="images/Chainsaw2.png"/>
+				</section>
+				<section>
+					<h2>definition Craftsmanship</h2>
+				</section>
+				<section>
+					<h2>definition Industry</h2>
+				</section>
+
+				<section>
+					<img src="images/Software-craftsmanship.jpg"/>
+				</section>
+				<section>
+					<img height="600" src="images/Software-factory.jpg"/>
+				</section>
+				<section>
+					<h2>RAD</h2>
+					<h2>MDA</h2>
+				</section>
+				<section>
+					<p>Any tool that lets a non-programmer build executable programs will eventually become sufficiently
+						complicated that the user is effectively a programmer."</p>
+					<blockquote>Mathias Verraes</blockquote>
+				</section>
+
+				<section>
+					<h2>WHY ?</h2>
+				</section>
+
+				<section>
+					<h2>software factory is a myth</h2>
+				</section>
+
+				<section>
+					<p> After reviewing the software development life cycle as I understood it, I concluded that the only software documentation that actually seems to satisfy the criteria of an engineering design is the source code listings.</p>
+					<blockquote>Jack W. Reeves 2005</blockquote>
+				</section>
+
+				<section>
+					<h2>Living documentation</h2>
+					<p>Generate docs from your tests, code, commits...</p>
+				</section>
+
+				<section>
+					<img src="images/Processus.png">
+					<p class="fragment">Cost of the feedback loops</p>
+				</section>
+
+				<section>
+					<h2>Feedback Loops</h2>
+					<p class="fragment">IDE (second)</p>
+					<p class="fragment">Type System (second)</p>
+					<p class="fragment">Pair Programming (minutes)</p>
+					<p class="fragment">Unit Tests (minutes)</p>
+					<p class="fragment">Build system (hours)</p>
+					<p class="fragment">Continuous Integration (hours)</p>
+					<p class="fragment">Continuous Deployment (days)</p>
+				</section>
+
+				<section>
+					<h2>Constraint theory</h2>
+					<p class="fragment">Something is valuable once it is delivered, before it's just wast</p>
+					<p class="fragment">Adopt a pull based approach on your delivery pipeline</p>
+				</section>
+
+				<section>
+					<h2>In software development Quality is free</h2>
+				</section>
+
+				<section>
+					<h2>Don't learn your tools, you need to understand them</h2>
+					<h2 class="fragment">Know the fundamental</h2>
+				</section>
+
+				<section>
+					<h2>So your job (developer) is about designing a solution</h2>
+				</section>
+
+				<section>
+					<h2>What is design ?</h2>
+					<p class="fragment">Designing is about to pass</p>
+					<p class="fragment">from the PROBLEM SPACE</p>
+					<p class="fragment">from the SOLUTION SPACE</p>
+				</section>
+
+				<section>
+					<h2>Start with the why and the what,</h2>
+					<h2 class="fragment">and not with the how</h2>
+				</section>
+
+				<section>
+					<h2>Adopt Ubiquitous Language</h2>
+					<p class="fragment">Driven by DDD (the blue book)</p>
+					<p class="fragment">Enforced by BDD</p>
+				</section>
+
+				<section>
+					<h2>to be continued...</h2>
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
